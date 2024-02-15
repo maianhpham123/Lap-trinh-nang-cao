@@ -1,4 +1,12 @@
 # include <bits/stdc++.h>
 using namespace std;
 
-int main()
+int main() 
+{
+  int k;
+  cin >> k;
+  while (k >= 3) {
+    k /= 3;
+  }
+  cout << k;
+{
