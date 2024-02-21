@@ -5,7 +5,60 @@ struct date {
     int day, month, year;
 };
 
+//check whether that year has 28 or 29 days in Feb
+bool isNamNhuan (n) {
+    if (n % 4 == 0 && n % 100 != 0) return true;
+    else return false;
+}
 //convert from n days to dd/mm/yyyy
-date convert (int n) {
+date IntToDate (int n, int year) {
+    date today;
+    int k = 1;
+    if (year % 4 == 0 && year % 100 != 0) {
+      while (x) {
+        if ((k % 2 == 1 && k <= 7) || (i % 2 == 0 && i >= 8)) x -= 31;
+        if (k == 2) x -= 29;
+        if ((k % 2 == 0 & k >= 4) || (n % 2 == 1 && n >= 9)) n -= 30;
+        k++;
+      }
 
+    else {
+      while (x) {
+        if ((k % 2 == 1 && k <= 7) || (i % 2 == 0 && i >= 8)) x -= 31;
+        if (k == 2) x -= 28;
+        if ((k % 2 == 0 & k >= 4) || (n % 2 == 1 && n >= 9)) n -= 30;
+        k++;
+      }
+    }
+
+    today -> month = k;
+    today -> day = x;
+}
+
+//convert from dd/mm//yyyy to n days
+int DateToInt (date today) {
+    int n;
+    if (n == 1) {
+        n = today -> day;
+    }
+    else {
+        if (isNamNhuan (today -> year)) {
+            for (int i = 1; i < today -> month; i++) {
+                if ((i % 2 == 1 && i <= 7) || (i % 2 == 0 && i >= 8)) n += 31;
+                if (i == 2) n += 29;
+                if ((i % 2 == 0 & i >= 4) || (n % 2 == 1 && n >= 9)) n += 30;
+            }
+        }
+
+        else {
+            for (int i = 1; i < today -> month; i++) {
+                if ((i % 2 == 1 && i <= 7) || (i % 2 == 0 && i >= 8)) n += 31;
+                if (i == 2) n += 28;
+                if ((i % 2 == 0 & i >= 4) || (n % 2 == 1 && n >= 9)) n += 30;
+            }
+        }
+
+        n += today -> day;
+    }
+    return n;
 }
