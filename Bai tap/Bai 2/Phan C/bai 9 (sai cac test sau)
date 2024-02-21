@@ -1,0 +1,19 @@
+//phan con lai la hackerrank
+
+int solve(vector<vector<int>> steps) {
+    int n = steps.size();
+    int row = steps[0][0];
+    int col = steps[0][1];
+    for (int i = 0; i < n; i++) {
+        if (steps[i][0] > row) row = steps[i][0];
+        if (steps[i][1] > col) col = steps[i][1];
+    }
+    
+    vector<vector<int>> a(row, vector<int>(col, 0));
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < steps[i][0]; j++) {
+            for (int k = 0; k < steps[i][1]; k++) {
+                a[j][k]++;
+            }
+        }
+    }
