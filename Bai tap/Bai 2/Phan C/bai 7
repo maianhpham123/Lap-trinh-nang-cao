@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+     int x;
+     int pre = -1;
+     while (x > 0) {
+          cin >> x;
+          if (x == pre) continue;
+          else {
+               cout << x <<  " ";
+          }
+          pre = x;
+     }
+}
