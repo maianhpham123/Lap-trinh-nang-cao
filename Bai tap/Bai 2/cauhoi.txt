@@ -1,0 +1,51 @@
+Câu 1: b 
+    if(a<b) min  = a
+    else min = b
+
+Câu 2: c - MẮC LỖI LOGIC
+
+nhãn default: 
+
+ứng dụng hay gặp của switch: tạo MENU
+=> đáp án: D
+
+Câu 3: c - các nhãn case trong cấu trúc switch phải là HẰNG
+
+Câu 4: b
+
+Câu 5: d - có thể thiếu bất cứ biểu thức nào trong 3 biểu thức trên
+
+Câu 6: b - continue
+
+Câu 7: c
+- biến trong vòng for là biến cục bộ
+
+Câu 8: a,b,c - không đánh giá cái nào linh hoạt hơn cái nào
+e đúng - biến đếm tự nhiên - step is interger
+
+Câu 9: d - xuất ra C
+
+Câu 10: b - 45
+
+Câu 11: c - the sum is 9
+
+Câu 12: b
+bản chất phép gán: giống với phép so sánh xem có khác không hay ko - 0 khi sai và 1 khi đúng (coi như là 1 biểu thức điều kiện)
+* phép so sánh khuyết 2 thành phần
+
+Câu 13: b - a * b = 3
+
+Câu 14: không đáp án đúng
+
+Câu 15: b
+(!x) - x = 0
+
+Câu 16: c (in ra 3 lần hello world)
+
+Câu 17: c (in ra 3 lần hello world)
+
+Câu 18: d - không in gì
+
+Câu 19: c (in ra 3 lần hello world)
+
+Câu 20: b
