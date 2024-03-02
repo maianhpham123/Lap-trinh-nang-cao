@@ -1,0 +1,31 @@
+1. biến bool A là đúng khi grade trong khoảng [90, 100] và sai ở các khoảng 
+còn lại. Sửa code (grade >= 90 && grade <= 100)
+
+2. kết quả: 0.6
+
+3. Vấn đề về khoảng giá trị của kiểu dữ liệu int và long 
+
+4. true
+
+5. kết quả: ra 1 giá trị bất kì, không liên quan
+
+6. 
+
+7. output: 
+0
+0.75 (*)
+0.75
+0.75
+
+8. lỗi: non-ASCII characters are not allowed 
+outside of literals and identifiers (điền vào sai kiểu 
+dữ liệu)
+
+9. output: A
+giải thích: trong khối lệnh con, định danh arg1 chỉ tới arg1 kiểu characters
+
+10. Khi ra khỏi khối lệnh con, định danh arg1 chỉ tới biến arg1 kiểu interger
+
+11. không sai
+
+12. Here (vì here ở ngoài vòng điều kiện)
