@@ -2,7 +2,7 @@
 using namespace std;
 
 int MaxWithoutIf(int a, int b) {
-    
+     
 }
 
 int main()
