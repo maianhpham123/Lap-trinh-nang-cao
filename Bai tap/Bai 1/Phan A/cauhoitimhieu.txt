@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
-@ -0,0 +1,31 @@
->>>>>>> 28c6d3f7f0785e93b8c65986fe273159f5ec626a
+
 1. biến bool A là đúng khi grade trong khoảng [90, 100] và sai ở các khoảng 
 còn lại. Sửa code (grade >= 90 && grade <= 100)
 
