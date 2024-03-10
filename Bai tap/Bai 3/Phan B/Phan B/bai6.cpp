@@ -1,10 +1,3 @@
-//
-//  bai6.cpp
-//  Phan B
-//
-//  Created by mac on 3/9/24.
-//
-
 #include <iostream>
 using namespace std;
 
@@ -25,15 +18,13 @@ struct Ship {
 };
 
 void display(const Ship& ship) {
-    Rect rec = ship.rec;
-    cout << rec.x << " " << rec.y << " " << ship.id;
+    cout << ship.rec.x << " " << ship.rec.y << " " << ship.id;
 }
 
 int main()
 {
     Ship ship;
-    Rect rec = ship.rec;
-    cin >> rec.x >> rec.y >> ship.dx >> ship.dy >> ship.id;
+    cin >> ship.rec.x >> ship.rec.y >> ship.dx >> ship.dy >> ship.id;
     ship.move();
     display(ship);
     return 0;
