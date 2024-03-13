@@ -1,0 +1,5 @@
+Câu 1: ii, iv (i không hợp lệ vì cần chỉ định kích thước của mảng)
+Câu 2: ii, iv
+Câu 3: i, ii
+Câu 4: i
+Câu 5: iii
