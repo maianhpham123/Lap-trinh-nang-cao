@@ -1,0 +1,14 @@
+int score[N] = ...
+
+for (int i = 0; i < N; i++) {
+    cout << score[i] << " ";
+}
+
+for (int i = 0; int* p = score; i < N; i++)
+    cout << *(p+i) << " ";
+
+for (int *ptr = &score[0]; ptr <= &score[N-1]; ptr++)
+    cout << *ptr << " ";
+
+for (int *ptr = score; int* end = &score[N-1]; ptr <= end; ptr+)
+    cout << *ptr << " ";
