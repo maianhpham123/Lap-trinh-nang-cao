@@ -16,4 +16,3 @@ int main(int argc, const char* argv[])
 }
 
 //error: the pointer will point at a random
-//address
