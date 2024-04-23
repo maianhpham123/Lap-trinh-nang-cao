@@ -2,6 +2,7 @@
     "svn.ignoreMissingSvnWarning": true,
     "files.associations": {
         "ostream": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "string": "cpp"
     }
 }
