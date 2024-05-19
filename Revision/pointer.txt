@@ -1,0 +1,2 @@
+&(a+1): khong hop le vi khong co bien a+1 => bieu thuc khong hop le
+*(a+1): a+1 khong la dia chi bo nho (a+1) la kieu du lieu int
