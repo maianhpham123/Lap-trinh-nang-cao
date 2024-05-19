@@ -1,7 +1,60 @@
-Cau 1: iii                                            
-Cau 2: iii                                                                                              
-Cau 3: iv
-Cau 4: 
-Cau 5: 
-cau 6:
-Cau 7: iii
+Cau 1:
+    bool majority (bool* a[]) {
+
+    }
+
+Cau 2:
+    bool eq(int a[], int b[], int n) {
+        for (int i = 0; i < n; i++) {
+            if (a[i] != b[i]) return false;
+        }
+        return true;
+    }
+
+Cau 3: 1000 times
+
+Cau 4: 17-17
+
+Cau 5:
+Test với các số nguyên dương: min(3, 7, 2, 5). Kết quả mong đợi là 2.
+Test với các số nguyên âm: min(-5, -3, -8, -1). Kết quả mong đợi là -8.
+Test với các số khác nhau: min(10, -4, 7, 0). Kết quả mong đợi là -4.
+Test với các số trùng nhau: min(5, 5, 5, 5). Kết quả mong đợi là 5.
+Sau khi chạy bộ test với các hàm trên, hàm đầu tiên và hàm thứ hai là cài đặt đúng 
+cho một hàm min trả về số nhỏ nhất trong 4 tham số.
+
+Cau 6:
+Khi gọi hàm f(1, 2), compiler sẽ chọn hàm f(int x, double y) 
+vì số 1 sẽ được coi là kiểu int và số 2 sẽ được coi là kiểu double theo thứ tự từ trái sang phải. 
+Vì vậy, kết quả của lời gọi hàm này sẽ là "f(int, double)".
+
+Cau 7: D
+
+Cau 8: A
+
+Cau 9: D
+
+Cau 10: B
+
+Cau 11: D
+
+Cau 12: B
+
+Cau 13: D
+
+Cau 14: C
+
+Cau 15: B
+
+Cau 16: D
+
+Cau 17: A
+Cau 18: A
+Cau 19: B
+Cau 20: D
+Cau 21: B
+Cau 22: C
+Cau 23: C
+Cau 24: B
+Cau 25: C
+Cau 26: D

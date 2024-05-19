@@ -1,0 +1,19 @@
+Tất cả các câu trong bài này đều phải dùng con trỏ để xử lý mảng/xâu, KHÔNG dùng thư viện C++string, hay cstring, hãy tự viết lấy các hàm bạn cần sử dụng, chẳng hạn strlen, strcpy...
+Viết các hàm sau đây, demo việc sử dụng chúng trong hàm main() của một chương trình.
+Đảo xâu. Viết một hàm reverse(char a[]) với nhiệm vụ đảo ngược thứ tự của a).
+
+Xóa kí tự. Viết hàm delete_char(char a[], char c) với nhiệm vụ xóa hết các kí tự c trong xâu a.
+
+Độn phải. Viết hàm pad_right(char a[], int n) với nhiệm vụ độn thêm các kí tự space vào cuối xâu a để a có độ dài bằng n. Nếu a đã dài quá n thì không phải làm gì cả.
+
+Độn trái. Viết hàm pad_left(char a[], int n) với nhiệm vụ độn thêm các kí tự space vào đầu xâu a để a có độ dài bằng n. Nếu a đã dài quá n thì không phải làm gì cả.
+
+Cắt xâu. Viết hàm truncate(char a[], int n) với nhiệm vụ cắt bớt đoạn cuối của xâu a để a có độ dài n nếu như a đang dài quá n kí tự.
+
+Đối gương. Viết hàm bool is_palindrome(char a[]) với nhiệm vụ kiểm tra xem xâu a có đối xứng hay không. Trả về true nếu đối xứng, false nếu không.
+
+Lọc trái. Viết hàm trim_left(char a[]) với nhiệm vụ xóa các kí tự trắng đứng ở đầu xâu a, nếu có.
+
+Lọc phải. Viết hàm trim_right(char a[]) với nhiệm vụ xóa các kí tự trắng đứng ở cuối xâu a, nếu có.
+
+
